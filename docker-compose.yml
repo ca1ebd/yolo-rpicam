@@ -1,5 +1,6 @@
 services:
   camera:
+    image: ghcr.io/ca1ebd/yolo-rpicam:latest
     build:
       context: .
       dockerfile: Dockerfile
